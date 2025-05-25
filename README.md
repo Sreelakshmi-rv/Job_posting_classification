@@ -20,19 +20,12 @@ The classified job data is then served through an interactive **Streamlit** web 
 - [Future Improvements](#-future-improvements)
 - [License](#-license)
 
----
 
 ## Overview
 
 This is a **Data Science mini-project** where job data is scraped, vectorized using **TF-IDF**, and clustered using **KMeans** to uncover hidden patterns in job postings. It's particularly useful for automating job categorization without labeled datasets.
 
----
 
-## 🖼️ App Demo
-
-
-
-> ✨ You can explore job clusters and skill groupings directly from your browser.
 
 ## Features
 
@@ -42,7 +35,7 @@ This is a **Data Science mini-project** where job data is scraped, vectorized us
 - 🌐 Streamlit web app for interactive exploration
 - 📁 Saved models and vectorizers for reuse
 
----
+
 
 ## Installation
 
@@ -59,7 +52,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 # Install requirements
 pip install -r requirements.txt
 ```
----
+
 
 ## Usage
 
@@ -72,7 +65,7 @@ pip install -r requirements.txt
    streamlit run streamlit_app.py
    ```
 
----
+
 
 ## Project Structure
 
@@ -85,7 +78,7 @@ pip install -r requirements.txt
 ├── requirements.txt                    # Python dependencies
 └── README.md                           # Project documentation
 
----
+
 
 ## Model Info
 
@@ -93,7 +86,7 @@ pip install -r requirements.txt
 - Model Used: KMeans is used to group similar job postings into clusters based on required skills.
 - Goal: Auto-classify new jobs into meaningful, human-readable categories.
 
----
+
 
 ## Future Improvements
 
@@ -103,7 +96,7 @@ pip install -r requirements.txt
 - Evaluate cluster coherence and interpretability
 - Expand scraping to other job sites (e.g., LinkedIn, Naukri)
 
----
+
 
 ## 🙌 Acknowledgments
 
