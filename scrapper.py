@@ -19,7 +19,7 @@ import os
 from datetime import datetime
 from typing import List, Optional, Tuple
 
-# Create output directory if it doesn't exist
+# Create output directory
 os.makedirs("results", exist_ok=True)
 
 # 1. Web Scraping Function
@@ -86,7 +86,7 @@ def scrape_karkidi_jobs(keyword: str = "data science", pages: int = 1) -> pd.Dat
                 print(f"⚠️ Error parsing job block: {e}")
                 continue
 
-        time.sleep(1)  # Be polite with server
+        time.sleep(1)  
 
     return pd.DataFrame(jobs_list)
 
