@@ -69,6 +69,7 @@ pip install -r requirements.txt
 
 ## Project Structure
 
+``` bash
 ├── data_science_all_jobs_*.csv         # Raw job postings
 ├── data_science_matched_jobs_*.csv     # Cleaned/processed jobs
 ├── job_cluster_model.pkl               # Trained KMeans clustering model
@@ -77,7 +78,7 @@ pip install -r requirements.txt
 ├── streamlit_app.py                    # Streamlit web app
 ├── requirements.txt                    # Python dependencies
 └── README.md                           # Project documentation
-
+```
 
 
 ## Model Info
