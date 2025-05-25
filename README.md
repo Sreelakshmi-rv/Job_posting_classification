@@ -9,17 +9,6 @@ The classified job data is then served through an interactive **Streamlit** web 
 
 ---
 
-## Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
-- [Model Info](#-model-info)
-- [Future Improvements](#-future-improvements)
-- [License](#-license)
-
 
 ## Overview
 
