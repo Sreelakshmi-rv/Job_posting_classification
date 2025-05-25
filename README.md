@@ -1,6 +1,6 @@
 # Job Posting Classification
 
- [ive Demo](https://jobpostingclassification-7augcb2gyc8tkfhq9qzjvw.streamlit.app/)  
+ [Live Demo](https://jobpostingclassification-7augcb2gyc8tkfhq9qzjvw.streamlit.app/)  
 🎯 Find jobs, faster — categorized by skills, clustered by AI.
 
 This project scrapes job listings from [Karkidi.com](https://www.karkidi.com/), processes the job descriptions using Natural Language Processing (NLP), and uses unsupervised machine learning (clustering) to classify job postings based on required skills. It helps users identify relevant job groups and discover opportunities that match their expertise.
