@@ -1,13 +1,12 @@
 # Job Posting Classification
 
-🚀 [Live Demo](https://jobpostingclassification-7augcb2gyc8tkfhq9qzjvw.streamlit.app/)  
+ [ive Demo](https://jobpostingclassification-7augcb2gyc8tkfhq9qzjvw.streamlit.app/)  
 🎯 Find jobs, faster — categorized by skills, clustered by AI.
 
 This project scrapes job listings from [Karkidi.com](https://www.karkidi.com/), processes the job descriptions using Natural Language Processing (NLP), and uses unsupervised machine learning (clustering) to classify job postings based on required skills. It helps users identify relevant job groups and discover opportunities that match their expertise.
 
 The classified job data is then served through an interactive **Streamlit** web app.
 
----
 
 
 ## Overview
@@ -18,11 +17,11 @@ This is a **Data Science mini-project** where job data is scraped, vectorized us
 
 ## Features
 
-- ✅ Web scraper for real-time job data from Karkidi
-- 🧠 TF-IDF + KMeans for job clustering
-- 📊 Job grouping based on required skills
-- 🌐 Streamlit web app for interactive exploration
-- 📁 Saved models and vectorizers for reuse
+- Web scraper for real-time job data from Karkidi
+- TF-IDF + KMeans for job clustering
+- Job grouping based on required skills
+- Streamlit web app for interactive exploration
+- Saved models and vectorizers for reuse
 
 
 
